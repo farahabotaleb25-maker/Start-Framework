@@ -1,0 +1,78 @@
+.contact {
+  background-color: #ffffff;
+  color: #151313;
+  text-align: center;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-content {
+   background-color: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px 20px;
+
+}
+
+.contact-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.star-line {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-line::before,
+.star-line::after {
+  content: "";
+  height: 4px;
+  width: 80px;
+  background-color: #ccc3c3;
+  margin: 0 15px;
+}
+
+.star-line i {
+  color: #151313;
+  font-size: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1abc9c;
+}

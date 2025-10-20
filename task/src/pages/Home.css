@@ -1,0 +1,58 @@
+.home {
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 100%;
+  max-width: 100%;
+}
+
+.content img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.star-line {
+  margin: 20px auto 5px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-line::before,
+.star-line::after {
+  content: "";
+  height: 4px;
+  width: 80px;
+  background-color: white;
+  margin: 0 15px;
+}
+
+.star-line i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.under-star {
+  font-size: 1.2rem;
+  margin: 5px auto 0 auto; 
+  text-align: center;
+  width: fit-content; 
+  padding: 0 10px;
+}
